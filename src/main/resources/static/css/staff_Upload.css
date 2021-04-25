@@ -1,0 +1,43 @@
+ h1 {
+            font-size: 40px;
+            color : white;
+            position: fixed;
+            left: 34%;
+            top: 110px;
+        }
+
+        body {
+            background-color:#a4a9f5;
+        }
+
+        .upload_form{
+            font-size: 20px;
+            position: fixed;
+            left: 42%;
+            top: 330px;
+
+        }
+
+
+        label{
+            font-size: 25px;
+        }
+
+        .choose_button{
+            cursor: pointer;
+            position: fixed;
+            left: 45%;
+            top: 380px;
+        }
+
+         .upload_button{
+            cursor: pointer;
+            position: fixed;
+            left: 46%;
+            top: 490px;
+        }
+
+        input[type="file"] {
+            font-size: 14px;
+            color: black;
+        }

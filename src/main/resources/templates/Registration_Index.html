@@ -1,0 +1,43 @@
+<!--<link rel="stylesheet" href="" th:href="@{/css/first.css}"/>-->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="" th:href="@{/css/first.css}"/>
+
+    </head>
+
+    <body>
+        <form>
+        <h1 style="color:white" align="center"> E-LEARNING SYSTEM FOR </h1>
+        <h1 style="color:white" align="center"> STUDENTS AND TEACHERS </h1>
+            <center>
+                <div>
+                    <img class="staff_Image" src="" th:src="@{/images/download-3.png}" alt="Avatar" style="width:200px" />
+
+                    <img class="student_Image" src="" th:src="@{/images/download-1.png}" alt="Avatar" style="width:200px">
+
+                </div>
+
+                <div>
+
+                    <button class="staff_button">
+                        <a class="link_value"
+                           th:href="@{staffLogin}">Staff
+                        </a>
+                    </button>
+
+                    <button class="student_button">
+                        <a class="link_value"
+                           th:href="@{studentLogin}">Students
+                        </a>
+                    </button>
+
+                </div>
+
+            </center>
+        </form>
+    </body>
+</html>

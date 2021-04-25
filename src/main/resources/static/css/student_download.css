@@ -1,0 +1,24 @@
+  body {
+                background-color:#a4a9f5;
+            }
+
+            h1 {
+                font-size: 40px;
+                text-align: center;
+                color:white;
+            }
+
+            table {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color:white;
+            }
+            th {
+                height: 50px;
+            }
+
+            td {
+                text-align: center;
+                height: 30px;
+            }

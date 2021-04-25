@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Upload</title>
+
+    <link rel="stylesheet" href="" th:href="@{/css/staff_Upload.css}"/>
+
+</head>
+<body>
+<div align="center">
+    <h1 style="color:white">Staff's Upload the Exams </h1>
+
+    <form class="upload_form" id="uploadFile" name="uploadFile"
+          method="post" th:action=@{/uploadFile} enctype="multipart/form-data">
+
+
+        <label >Choose Files Here :</label><br>
+        <span class="choose_button">
+            <input type="file" name="file" multiple required/><br>
+        </span>
+        <br><br><br><br>
+
+        <label >Submit Here...</label><br>
+        <span class="upload_button">
+            <input type="submit" value="Upload" />
+        </span>
+
+
+
+
+
+
+
+
+
+
+
+<!--           -->
+<!--            <table class="upload_table">-->
+
+<!--                <tr class="choose">-->
+<!--                    <td>Upload Exams Here : </td>-->
+<!--                    <td class="choose_button"><input type="file" name="fileUpload" size="50" /></td>-->
+<!--                </tr>-->
+
+
+<!--                <tr class="submit">-->
+<!--                    <td colspan="2" align="center"><input type="submit" value="Upload" /></td>-->
+<!--                </tr>-->
+
+
+<!--            </table>-->
+    </form>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+h1 {
+        font-size: 40px;
+     }
+
+     body {
+         background-color:#a4a9f5;
+     }
+
+     .staff_Image {
+         border-radius: 50%;
+         position: fixed;
+         left: 25%;
+         top: 300px;
+     }
+
+     .student_Image {
+            border-radius: 50%;
+            position: fixed;
+            left: 65%;
+            top: 300px;
+     }
+
+     .staff_button {
+        border: none;
+        color: white;
+        padding: 15px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px 2px;
+        height: 50px;
+        width: 100px;
+        position: fixed;
+        left: 28%;
+        top: 550px;
+        cursor: pointer;
+        background-color: #2ad15f;
+        border-radius: 8px;
+     }
+
+     .student_button {
+             border: none;
+             color: white;
+             padding: 15px 40px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             margin: 5px 2px;
+             height:50px;
+             width: 130px;
+             position: fixed;
+             left: 67%;
+             top: 550px;
+             cursor: pointer;
+             background-color: #2ad15f;
+             border-radius: 8px;
+          }
+
+
