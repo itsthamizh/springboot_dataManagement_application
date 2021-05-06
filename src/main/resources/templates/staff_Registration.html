@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="" th:href="@{/css/staff_Registration.css}"/>
+
+        <link rel="stylesheet" href="" th:href="@{/js/staff.js}"/>
+
+        <title>Registration</title>
+
+    </head>
+
+    <body>
+
+        <h1 class="head"> Teachers Registration</h1>
+
+        <form>
+
+            <label >Staff ID</label><br>
+            <input name="regno" placeholder="Enter Id" type="text" required><br>
+
+            <label >Password</label><br>
+            <input name="psw" type="password" placeholder="Enter Password" required><br>
+
+            <label >Repeat Password</label><br>
+            <input name="psw-repeat" type="password" placeholder="Repeat Password" required><br>
+
+            <label >Name</label><br>
+            <input name="name" placeholder="Enter Name" type="text"><br>
+
+            <label >Department</label><br>
+            <input name="dept" placeholder="Enter Department" type="text"><br>
+
+            <label >Year</label><br>
+            <input name="year" placeholder="Enter Year" type="text"><br><br>
+
+            <input onClick="validation()" type="submit" value="Submit" />
+
+        </form>
+
+    </body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>download</title>
+
+    <link rel="stylesheet" href="" th:href="@{/css/student_download.css}"/>
+
+</head>
+
+    <body>
+
+    <h1>Uploaded Exams and</h1>
+    <h1>Download Here</h1>
+    <table border="1" id="myTable">
+        <tr>
+<!--            <th>S.No</th>-->
+            <th>File Name</th>
+            <th>File Type</th>
+            <th>File Data</th>
+            <th>Download</th>
+        </tr>
+
+        <tr th:each="databasefile : ${databasefiles}">
+<!--            <td th:text="${databasefile.id}">S.No</td>-->
+            <td th:text="${databasefile.fileName}">File Name</td>
+            <td th:text="${databasefile.fileType}">File Type</td>
+            <td th:text="${databasefile.data}">File Data</td>
+
+            <td> <a th:href="@{'/downloadFile/'+${databasefile.id}}">Download</a> </td>
+
+        </tr>
+    </table>
+
+    <div class="logout">
+        <a th:href="@{/logout}">Log Out</a>
+    </div>
+
+    </body>
+</html>
