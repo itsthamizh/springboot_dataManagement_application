@@ -41,3 +41,12 @@
             font-size: 14px;
             color: black;
         }
+
+        .logout{
+                    font-size: 20px;
+                    position: fixed;
+                    left: 85%;
+                    top: 30px;
+                    color: white;
+
+                }

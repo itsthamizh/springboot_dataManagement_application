@@ -22,3 +22,11 @@
                 text-align: center;
                 height: 30px;
             }
+
+            .logout{
+                    font-size: 20px;
+                    position: fixed;
+                    left: 85%;
+                    top: 30px;
+                    color: white;
+            }
